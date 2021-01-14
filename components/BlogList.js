@@ -16,13 +16,13 @@ const BlogList = ({ allBlogs }) => {
       <ul className="list">
         {allBlogs.length > 1 &&
           allBlogs.map(post => (
-            <Link key={post.slug} href={{ pathname: `/blog/${post.slug}.html` }}>
+            <Link key={post.slug} href={{ pathname: `blog/${post.slug}.html` }}>
               <a>
                 <li>
                   <div className="hero_image">
                     <img
-                      src={post.frontmatter.hero_image}
-                      alt={post.frontmatter.hero_image}
+                      src={blog/post.frontmatter.hero_image}
+                      alt={blog/post.frontmatter.hero_image}
                     />
                   </div>
                   <div className="blog__info">
