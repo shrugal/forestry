@@ -16,7 +16,7 @@ const BlogList = ({ allBlogs }) => {
       <ul className="list">
         {allBlogs.length > 1 &&
           allBlogs.map(post => (
-            <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
+            <Link key={post.slug} href={{ pathname: `/blog/${post.slug}.html` }}>
               <a>
                 <li>
                   <div className="hero_image">
