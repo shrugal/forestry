@@ -21,8 +21,8 @@ const BlogList = ({ allBlogs }) => {
                 <li>
                   <div className="hero_image">
                     <img
-                      src={blog/post.frontmatter.hero_image}
-                      alt={blog/post.frontmatter.hero_image}
+                      src={`blog/${post.frontmatter.hero_image}`}
+                      alt={`blog/${post.frontmatter.hero_image}`}
                     />
                   </div>
                   <div className="blog__info">
